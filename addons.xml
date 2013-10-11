@@ -58,7 +58,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.greekvoice.tv" name="Greek Voice TV" version="1.0.0" provider-name="IWT">
+<addon id="plugin.video.greek.tv" name="Greek TV" version="1.0.0" provider-name="IWT">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 		<import addon="xbmc.json" version="6.0.0"/>
@@ -74,8 +74,8 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Live TV from Greece.</summary>
-		<description lang="en">Watch the Greek Voice from Tarpon Springs, Florida.</description>
-		<disclaimer lang="en">Τhis addon offers content available from Tarpon Springs, Florida.</disclaimer>
+		<description lang="en">Watch your favourite television networks from Greece.</description>
+		<disclaimer lang="en">Τhis addon offers content available in Greece.</disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
