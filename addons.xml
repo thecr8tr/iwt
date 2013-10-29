@@ -53,7 +53,7 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Live TV from Greece.</summary>
 		<description lang="en">Watch your favourite television networks from Greece.</description>
-		<disclaimer lang="en">Τhis addon offers content available in Greece.</disclaimer>
+		<disclaimer lang="en">Τhis addon offers live video content available in Greece.</disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
