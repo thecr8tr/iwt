@@ -18,24 +18,6 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.greek.movies" name="Greek Movies" version="1.0.0" provider-name="IWT">
-	<requires>
-		<import addon="xbmc.python" version="1.0"/>
-		<import addon="script.common.plugin.cache" version="0.9.1"/>
-		<import addon="script.module.parsedom" version="0.9.1"/>
-		<import addon="plugin.video.youtube" version="2.9.2"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Watch greek movies from Cine-Greece and Greek-Movies</summary>
-		<description lang="en">Watch greek movies from Cine-Greece and Greek-Movies.[CR]All recent and classic movies are broadcasted by YouTube.</description>
-		<disclaimer lang="en">Τhis addon offers content available in Greece.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="plugin.video.greek.tv" name="Greek TV" version="1.0.0" provider-name="IWT">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -57,58 +39,23 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+<!--3-->
 
-<addon id="plugin.video.greekvoice.tv" name="Greek Voice TV" version="1.0.0" provider-name="IWT">
+<addon id="plugin.video.greek.movies" name="Greek Movies" version="1.0.0" provider-name="IWT">
 	<requires>
-		<import addon="xbmc.addon" version="12.0.0"/>
-		<import addon="xbmc.json" version="6.0.0"/>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="xbmc.python" version="1.0"/>
+		<import addon="script.common.plugin.cache" version="0.9.1"/>
 		<import addon="script.module.parsedom" version="0.9.1"/>
 		<import addon="plugin.video.youtube" version="2.9.2"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
-	<extension point="xbmc.service" library="service.py" start="startup">
-	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Live Greek Tv</summary>
-		<description lang="en">Watch the Greek Voice from Tarpon Springs, FL.</description>
-		<disclaimer lang="en">Τhis addon offers content available from Tarpon Springs, FL.</disclaimer>
+		<summary lang="en">Watch greek movies from Cine-Greece and Greek-Movies</summary>
+		<description lang="en">Watch greek movies from Cine-Greece and Greek-Movies.[CR]All recent and classic movies are broadcasted by YouTube.</description>
+		<disclaimer lang="en">Τhis addon offers content available in Greece.</disclaimer>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="repository.IWT" name="IWT Addons" version="1.0.0" provider-name="IWT">
-	<extension point="xbmc.addon.repository" name="IWT Repository">
-		<info compressed="false">https://github.com/thecr8tr/iwt/raw/master/addons.xml</info>
-		<checksum>https://github.com/thecr8tr/iwt/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/thecr8tr/iwt/raw/master/repo</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install IWT Addons</summary>
-		<description lang="en">Download/install IWT Addons</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="skin.iwt" version="1.0.0" name="IWT" provider-name="thecr8tr">
-  <requires>
-    <import addon="xbmc.gui" version="4.0.0"/>
-    <import addon="script.favourites" version="4.0.4"/>
-  </requires>
-  <extension
-    point="xbmc.gui.skin"
-    defaultthemename="Textures.xbt"
-    debugging="false">
-    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
-
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>IWT</summary>
-    <description>International Web Tv</description>
-  </extension>
 </addon>
 </addons>
