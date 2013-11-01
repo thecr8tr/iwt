@@ -39,7 +39,7 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-<!--4-->
+<!--5-->
 
 <addon id="plugin.video.greek.movies" name="Greek Movies" version="1.0.0" provider-name="IWT">
 	<requires>
